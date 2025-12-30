@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background: radial-gradient(circle, #0b1220, #000);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  width: 120px;
+  animation: glow 2s infinite alternate;
+}
+
+h1 {
+  margin: 10px 0 5px;
+  font-size: 36px;
+}
+
+p {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+span {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+@keyframes glow {
+  from { filter: drop-shadow(0 0 5px white); }
+  to { filter: drop-shadow(0 0 20px #00ffcc); }
+}
