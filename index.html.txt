@@ -1,19 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>Bulk Trade Promo</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Bulk Trade Test</title>
 </head>
-<body>
-
-<div class="container">
-  <img src="logo.png" class="logo" />
+<body style="background:black;color:white;text-align:center;padding-top:100px;">
   <h1>Bulk Trade</h1>
-  <p>Perps on Solana</p>
-  <span>One Exchange. Infinite Markets.</span>
-</div>
-
-<script src="script.js"></script>
+  <p>GitHub Pages Working</p>
 </body>
 </html>
